@@ -1,0 +1,28 @@
+/* Highlighted target element */
+.highlight {
+  background-color: rgba(0, 123, 255, 0.8); /* Blue background */
+  color: white; /* White text */
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* For demo purpose: layout of the target elements */
+.tip-target {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
